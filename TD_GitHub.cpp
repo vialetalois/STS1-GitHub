@@ -48,7 +48,30 @@ int plusGrand(int a, int b, int c)
 
 //Fonctions réalisées par l'étudiant 2 :
 
+bool estpaire(int y)
+{
+    bool z;
+    if (y %2 == 0)
+    {
+        z = true;
+    }
+    else
+    {
+        z = false;
+    }
+    return z;
+}
 
+int sommeNombre(int y)
+{
+    int resultat = 0;
+    int i = 0 ;
+    for (i = y; i >= 0 ; i--)
+    {
+        resultat = resultat + i;
+    }
+    return resultat;
+}
 
 
 
