@@ -48,10 +48,10 @@ int plusGrand(int a, int b, int c)
 
 //Fonctions réalisées par l'étudiant 2 :
 
-bool estpaire(int y)
+bool estpaire(int nb)
 {
     bool z;
-    if (y %2 == 0)
+    if (nb %2 == 0)
     {
         z = true;
     }
@@ -62,20 +62,40 @@ bool estpaire(int y)
     return z;
 }
 
-int sommeNombre(int y)
+int sommeNombre(int nb)
 {
     int resultat = 0;
     int i = 0 ;
-    for (i = y; i >= 0 ; i--)
+    for (i = nb; i >= 0 ; i--)
     {
         resultat = resultat + i;
     }
     return resultat;
 }
 
+float salairNet(int salaire);
+{
+	float y;
+	y = y *(0.77);
+	return y
+}
 
-
-
+int plusPetit(int a, int b, int c)
+{
+    int petit = 0;
+    if (a < b && a < c)
+    {
+        return a;
+    }
+    else if (b < c && b < a)
+    {
+        return b;
+    }
+    else
+    {
+       return c ;
+    }
+}
 
 
 
