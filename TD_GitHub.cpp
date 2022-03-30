@@ -12,7 +12,13 @@
    }
 }
 
-
+int exposant (int nbre, int exp)
+{
+  int resultat;
+  resultat = pow(nbre, exp);
+  return resultat;
+    
+}
 
 
 
