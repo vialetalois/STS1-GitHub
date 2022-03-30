@@ -25,12 +25,25 @@ float TVA(int prix)
 {
   float resultat ;
   resultat =prix + (prix * (19.6 / 100));
-  
   return resultat;
 }
 
 
-
+int plusGrand(int a, int b, int c)
+{
+  if (a>b && a>c)
+  {
+    return a ;
+  }
+  if (b>a && b>c)
+  {
+    return b ;
+  }
+  else
+  {
+    return c ;
+  }
+}
 
 
 //Fonctions réalisées par l'étudiant 2 :
