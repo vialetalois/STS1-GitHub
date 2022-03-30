@@ -58,3 +58,46 @@ int plusGrand(int a, int b, int c)
 
 
 //Fonctions réalisées par l'étudiant 3 :
+bool estImpair(int nb)
+{
+	bool b;
+	if(nb % 2 ==0)
+	{
+		b=false;
+	}
+	else
+	{
+		b=true;
+	}
+	return b;
+}
+
+float moyenne(int nb1, int nb2, int nb3)
+{
+	float res;
+	res=(nb1+nb2+nb3)/2;
+	return res;
+}
+
+float reduction(int prix, int reduc)
+{
+	float res;
+	res = prix * reduc/100;
+	return res;
+}
+
+float nombreMedian(int a, int b, int c)
+{
+	if ((a>=b && a<=c) || (a<=b && a>=c))
+	{
+		return a;
+	}
+	else if ((b>=a && b<=c) || (b<=a && b>=c))
+	{
+		return b;
+	}
+	else
+	{
+		return c;
+	}
+}
