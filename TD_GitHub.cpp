@@ -144,3 +144,38 @@ float nombreMedian(int a, int b, int c)
 		return c;
 	}
 }
+
+//Fonctions réalisées par Olivier CARLIER
+
+bool estMajeur(int age);
+ {
+   if (age >= 18)
+   {
+    return true;
+   }
+   else
+   {
+    return false;
+   }
+}
+
+float salaireNet(float salaireBrut);
+{
+	float x;
+	x = SalaireBrut * 0,77;
+	return x;
+}
+
+float moyenne(int nb1, int nb2, int nb3);
+{
+	float resultMoy;
+	resultMoy=(nb1+nb2+nb3)/3;
+	return resultMoy;
+}
+
+float reduction(int prix, int reduc); // avec reduc, un nombre entier comprix entre 0 et 100
+{
+	float resultReduc;
+	resultReduc = prix - (prix * (reduc/100));
+	return resultReduc;
+}

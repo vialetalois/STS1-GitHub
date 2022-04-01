@@ -24,3 +24,12 @@ float moyenne(int nb1, int nb2, int nb3);
 float reduction(int prix, int reduc);
 
 int nombreMedian(int a, int b, int c);
+
+//Fonctions réalisées par Olivier CARLIER
+bool estMajeur(int age);
+
+float salaireNet(float salaireBrut);
+
+float moyenne(int nb1, int nb2, int nb3);
+
+float reduction(int prix, int reduc);
